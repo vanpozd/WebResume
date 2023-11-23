@@ -1,1 +1,1 @@
-# WebResume
+# Resume site project
