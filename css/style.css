@@ -1,30 +1,31 @@
-body{
+body {
    background: #FFF;
    padding: 40px 40px 40px 40px;
    font-family: 'Montserrat', sans-serif;
 }
 
-ul, ol {
+ul,
+ol {
    margin-top: 0;
    margin-bottom: 0;
 }
 
 /* sidebar */
 
-.side-bar{
+.side-bar {
    background: #E0EBFE;
    padding-top: 40px;
    padding-bottom: 40px;
    width: 370px;
 }
 
-.sidebar-content{
+.sidebar-content {
    padding-left: 40px;
    padding-top: 40px;
    padding-right: 40px;
 }
 
-.conact-title{
+.conact-title {
    color: #161D2A;
    font-size: 22px;
    font-weight: 700;
@@ -33,55 +34,64 @@ ul, ol {
    margin-bottom: 8px;
 }
 
-.cont-type{
+.cont-type {
    color: #161D2A;
    font-size: 14px;
    font-weight: 700;
-   line-height: 24px; 
+   line-height: 24px;
    margin-right: 8px;
 }
 
-.cont-link{
+.cont-link {
    color: #2979FF;
    font-size: 14px;
    font-weight: 400;
-   line-height: 24px; 
+   line-height: 24px;
 }
 
-.cont-item{
+.cont-item {
    margin-top: 0;
    margin-bottom: 8px;
+   height: 24px;
+   display: flex;
+   align-items: center;
 }
 
-.cont-container{
+.contlistimg {
+   color: #000;
+   padding-right: 10px;
+   width: 19px;
+}
+
+.cont-container {
    margin-bottom: 40px;
 }
 
 /* skills */
 
-.skills-contaier{
+.skills-contaier {
    margin-bottom: 40px;
 }
 
-.skills-title{
+.skills-title {
    margin-top: 0;
    margin-bottom: 8px;
 }
 
-.skills-list{
+.skills-list {
    padding-left: 16px;
 }
 
-.skills-list-item{
+.skills-list-item {
    color: #161D2A;
    font-size: 14px;
    font-weight: 400;
-   line-height: 24px; 
+   line-height: 24px;
 }
 
 /* main content */
 
-.main-content{
+.main-content {
    padding-left: 80px;
    padding-top: 80px;
    padding-right: 40px;
@@ -89,7 +99,7 @@ ul, ol {
    box-sizing: border-box;
 }
 
-.wrapper{
+.wrapper {
    background: #FFF;
    display: flex;
    flex-direction: row-reverse;
@@ -97,16 +107,16 @@ ul, ol {
    margin: 0 auto;
 }
 
-.proffesion{
+.proffesion {
    color: #000;
    font-size: 14px;
    font-weight: 700;
-   line-height: 17px; 
+   line-height: 17px;
    margin-top: 0;
    margin-bottom: 8px;
 }
 
-.sur-name{
+.sur-name {
    color: #000;
    font-size: 45px;
    font-weight: 700;
@@ -115,20 +125,20 @@ ul, ol {
    margin-bottom: 12px;
 }
 
-.user-descr{
+.user-descr {
    color: #595959;
    font-size: 14px;
    font-weight: 400;
    line-height: 24px;
 }
 
-.my-info{
+.my-info {
    margin-bottom: 40px;
 }
 
 /* prjcts */
 
-.projtitle{
+.projtitle {
    color: #000;
    font-size: 22px;
    font-weight: 700;
@@ -137,18 +147,18 @@ ul, ol {
    margin-bottom: 8px;
 }
 
-.project-item{
+.project-item {
    color: #000;
    font-size: 14px;
    font-weight: 700;
-   line-height: 24px; 
+   line-height: 24px;
 }
 
-.proj-list{
+.proj-list {
    padding-left: 16px;
 }
 
-.proj-link{
+.proj-link {
    color: #005FFF;
    font-size: 14px;
    font-weight: 400;
@@ -156,24 +166,24 @@ ul, ol {
    text-decoration-line: underline;
 }
 
-.proj-tech-text{
+.proj-tech-text {
    color: #595959;
    font-size: 14px;
    font-weight: 400;
-   line-height: 24px; 
+   line-height: 24px;
 }
 
-.proj-cont{
+.proj-cont {
    margin-bottom: 40px;
 }
 
 /* education */
 
-.edu-container{
+.edu-container {
    margin-top: 0;
 }
 
-.edu-title{
+.edu-title {
    color: #000;
    font-size: 22px;
    font-weight: 700;
@@ -183,7 +193,7 @@ ul, ol {
    padding-bottom: 12px;
 }
 
-.university-name{
+.university-name {
    color: #6D9BF5;
    font-size: 16px;
    font-weight: 700;
@@ -192,7 +202,7 @@ ul, ol {
    margin-bottom: 8px;
 }
 
-.edu-spec-name{
+.edu-spec-name {
    color: #000;
    font-size: 14px;
    font-weight: 700;
@@ -201,7 +211,7 @@ ul, ol {
    margin-bottom: 8px;
 }
 
-.edu-time{
+.edu-time {
    color: #A8A8A8;
    font-size: 12px;
    font-weight: 400;
@@ -209,14 +219,14 @@ ul, ol {
    margin-top: 0;
 }
 
-.edu-time-devider{
+.edu-time-devider {
    color: #000;
    font-size: 12px;
    font-weight: 400;
    line-height: normal;
 }
 
-.eduschoolsametitle{
+.eduschoolsametitle {
    color: #000;
    font-size: 20px;
    font-weight: 700;
@@ -225,23 +235,23 @@ ul, ol {
    margin-bottom: 8px;
 }
 
-.schoolcontainerlist{
+.schoolcontainerlist {
    margin-top: 0;
    padding-bottom: 12px;
 }
 
-.educourseralist{
+.educourseralist {
    padding-left: 16px;
 }
 
-.educourseralistitem{
+.educourseralistitem {
    color: #000;
    font-size: 14px;
    font-weight: 700;
-   line-height: 24px; 
+   line-height: 24px;
 }
 
-.educourseralistlink{
+.educourseralistlink {
    color: #005FFF;
    font-size: 14px;
    font-weight: 400;
